@@ -1,0 +1,40 @@
+.box {
+    background-color: darkblue;
+    border: 1px solid blue;
+    min-height: 20px;
+    font-size: 2rem;
+    margin-top: auto;
+
+    
+}
+h1 {
+    color: #94E6FC;
+    text-align: center;
+}
+body {
+    background-image: url("https://wallpapercave.com/wp/wp2532672.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    border: 1px solid lightcyan;
+    text-align: center;
+    box-shadow: 1px;
+    padding: 10px;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: grey;
+    border-radius: 5px;
+}
+.label {
+    color: white;
+}
+.input-box {
+    margin-bottom: 5px;
+}
+#click {
+    color: black;
+    background-color: #94E6FC;
+}
+
