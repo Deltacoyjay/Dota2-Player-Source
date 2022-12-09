@@ -9,6 +9,6 @@ alert(heroName)
 newP.innerHTML = `fgf`
 
 let mainHero = document.getElementById("mainDiv")
-mainHero.appendchild(newP)
+mainHero.appendChild(newP)
 
 
