@@ -75,65 +75,6 @@ let heroes = {
 
 function character(type) {
 
-    // let newDiv = document.createElement("div")
-    // newDiv.setAttribute("class", "hero-container")
-
-    // let newA = document.createElement("span")
-    // newA.innerHTML = `${heroes.strength[0].name}`
-    // let imageHero = document.createElement("img")
-    // imageHero.setAttribute(
-    //     "src", `${heroes.strength[0].imageUrl}`
-    // );
-    // imageHero.setAttribute("class", "hero-image")
-    // newDiv.append(newA)
-    // newDiv.appendChild(imageHero)
-
-
-    // let newS = document.createElement("span")
-    // newS.innerHTML = `${heroes.strength[1].name}`
-    // let imageSven = document.createElement("img")
-    // imageSven.setAttribute(
-    //     "src", `${heroes.strength[1].imageUrl}`
-
-    // );
-    // imageSven.setAttribute("class", "hero-image")
-    // newDiv.append(newS)
-    // newDiv.appendChild(imageSven)
-
-    // let newDk = document.createElement("span")
-    // newDk.innerHTML = `${heroes.strength[2].name}`
-    // let imageDragon = document.createElement("img")
-    // imageDragon.setAttribute(
-    //     "src", `${heroes.strength[2].imageUrl}`
-
-    // );
-    // imageDragon.setAttribute("class", "hero-image")
-    // newDiv.append(newDk)
-    // newDiv.appendChild(imageDragon)
-
-    // let newP = document.createElement("span")
-    // newP.innerHTML = `${heroes.strength[3].name}`
-    // let imagePudge = document.createElement("img")
-    // imagePudge.setAttribute(
-    //     "src", `${heroes.strength[3].imageUrl}`
-
-    // );
-    // imagePudge.setAttribute("class", "hero-image")
-    // newDiv.append(newP)
-    // newDiv.appendChild(imagePudge)
-
-    // let newSl = document.createElement("span")
-    // newSl.innerHTML = `${heroes.strength[4].name}`
-    // newDiv.append(newSl)
-    // let imageSlardar = document.createElement("img")
-    // imageSlardar.setAttribute(
-    //     "src", `${heroes.strength[4].imageUrl}`
-
-    // );
-    // imageSlardar.setAttribute("class", "hero-image")
-    // newDiv.append(newSl)
-    // newDiv.appendChild(imageSlardar)
-
     let heroDiv = document.getElementById("heroes")
    
     heroDiv.innerHTML = ""
