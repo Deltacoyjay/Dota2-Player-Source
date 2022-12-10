@@ -95,10 +95,10 @@ function character(type) {
     let imageHero = document.createElement("img")
     imageHero.setAttribute("src", hero.imageUrl);
     imageHero.setAttribute("class", "hero-image")
+    
     newDiv.appendChild(newA)
     newDiv.appendChild(imageHero)
     heroInfo.appendChild(newDiv)
-  
     heroDiv.appendChild(heroInfo)
   })
 }
