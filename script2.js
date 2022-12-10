@@ -84,18 +84,16 @@ function character(type) {
   let heroDiv = document.getElementById("heroes")
   heroDiv.innerHTML = ""
 
-  heroes[type].map((hero, i) => {
+  heroes[type].map(hero => {
     let heroInfo = document.createElement("a")
     heroInfo.setAttribute("href", `index3.html?heroName=${hero.name}&heroDetails=${hero.details}`)
     let newDiv = document.createElement("div")
     newDiv.setAttribute("class", "hero-container")
 
     let newA = document.createElement("p")
-    newA.innerHTML = `${hero.name}`
+    newA.innerHTML = hero.name
     let imageHero = document.createElement("img")
-    imageHero.setAttribute(
-        "src", `${hero.imageUrl}`
-    );
+    imageHero.setAttribute("src", hero.imageUrl);
     imageHero.setAttribute("class", "hero-image")
     newDiv.appendChild(newA)
     newDiv.appendChild(imageHero)
