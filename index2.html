@@ -5,21 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style2.css" />
+    <script src="./script2.js" defer></script>
     <title>Document</title>
   </head>
   <body>
     <div class="main-container">
       <div class="container">
-        <button onclick="character(`strength`)" class="strength">
-          Strength
-        </button>
-        <button onclick="character(`agility`)" class="agility">Agility</button>
-        <button onclick="character(`intelligence`)" class="intelligence">
-          Intelligence
-        </button>
+        <button id="strength" class="strength">Strength</button>
+        <button id="agility" class="agility">Agility</button>
+        <button id="intelligence" class="intelligence">Intelligence</button>
       </div>
       <div id="heroes"></div>
     </div>
-    <script src="./script2.js"></script>
   </body>
 </html>
