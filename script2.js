@@ -20,6 +20,7 @@ let heroes = {
       details: "Born under the immense pressure of the deep, always ready to find and demolish his foes, Slardar quickly slithers and Sprints into battle with one muscular tail, chasing down legged foes with alarming swiftness."
     }
   ],
+
   "agility": [
     {
       name: "DROW RANGER", 
@@ -45,6 +46,7 @@ let heroes = {
       imageUrl: "https://cdna.artstation.com/p/assets/images/images/040/122/650/original/eleonora-noura-abdrakhmanova-medusa-loadout.gif?1627932960", details:"Constant attack is the key to Medusa's success. Encased in a Mana Shield, she survives against even the most unfavorable odds. Foes bitten by Mystic Snake charge it up with energy, a resource that returns to Medusa for her defensive use. "
     }
   ],
+
   "intelligence": [
     {
       name: "ZUES", 
@@ -71,7 +73,7 @@ let heroes = {
       details: "Betrayed by his demon partner, Lion went to Hell and back for his vengeance, retrieving the demon's hand and grafting it onto his own body. Lion gives enemies little chance to retaliate. Stunning targets with a damaging row of Earth Spikes, or temporarily transforming them into a harmless critter using a simple Hex, allowing him to Mana Drain them without interruption."
     }
   ]
-};
+}
 
 function character(type) {
 
