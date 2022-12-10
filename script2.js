@@ -1,4 +1,4 @@
-let heroes = {
+const heroes = {
   "strength": [
     {
       name: "AXE", 
@@ -75,8 +75,12 @@ let heroes = {
   ]
 }
 
-function character(type) {
+const buttons = document.getElementsByTagName('button')
+for (let button of buttons) {
+  button.addEventListener('click', e => character(e.target.id))
+}
 
+function character(type) {
   let heroDiv = document.getElementById("heroes")
   heroDiv.innerHTML = ""
 
