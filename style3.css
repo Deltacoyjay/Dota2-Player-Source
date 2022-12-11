@@ -1,9 +1,63 @@
 body {
-    background-image: url(https://cdn.wallpapersafari.com/42/8/N2QXUF.jpg);
+    background-image: url(https://wallpaper.dog/large/10735932.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
+    
 }
 h1 {
-    color: #5A77CB;
+    color: white;
+}
+#heroSkillImage {
+    height: 300px;
+    width: 100%;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+#heroDescription {
+    height: 300px;
+    width: 100%;
+    margin-left: 5px;
+    color: #F2F8FF;
+    
+    
+}
+#mainDiv {
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    overflow-x: hidden;
+}
+.heroSkillContainer {
+    height: 100%;
+  width: 100%;
+    
+}
+.heroDescriptionContainer {
+    height: 100%;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  
+    
+}
+#click {
+    background-color:blue; /* Green */
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+
+}
+#click:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
